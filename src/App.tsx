@@ -1,17 +1,14 @@
-import logo from './assets/logo.png'
-import './App.css'
+import logo from "./assets/logo.png";
 
-function App() {
-
+const App = () => {
   return (
-    <>
-      <div>
-          <img src={logo} className="logo react" alt="React logo" />
-        
+    <main>
+      <div className="bg-red-100">
+        <img src={logo} className="h-[200px] w-[200px]" alt="React logo" />
       </div>
-      <h1 className='title'>Inkivity. Coming soon...</h1>
-    </>
-  )
-}
+      <h1 className="text-black">Inkivity. Work in progress.</h1>
+    </main>
+  );
+};
 
-export default App
+export default App;
