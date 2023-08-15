@@ -22,37 +22,37 @@ export const SERVICES_LIST = [
     label: "Social media management",
     path: socialMediaIcon,
     description:
-      "Creating, posting, scheduling, and analysing social media content and developing a data-based scalable strategy to improve engagement rates; monitoring and maintaining community engagement- the overall process of managing your social media accounts.",
+      "Ut sed pretium felis, vel malesuada lacus. Proin ipsum neque, tincidunt id vestibulum iaculis, condimentum a augue. Integer non efficitur velit. Nulla aliquam ut metus vitae bibendum.",
   },
   {
     label: "SEO",
     path: seoIcon,
     description:
-      "Improving your brand's online visibility, driving organic traffic, developing engaging and informative SEO-friendly content, and boosting your business's growth. Increasing your website's ranking in the Google search engine and influencing organic conversion.",
+      "Aliquam dapibus tincidunt augue, a eleifend sapien tempus pretium. Mauris at eros ac elit malesuada lacinia. Etiam finibus eros et tellus placerat vehicula. Nulla aliquam ut metus vitae bibendum.",
   },
   {
     label: "Email marketing",
     path: emailMarketingIcon,
     description:
-      "Customisable email marketing to engage with your audience, nurture leads, drive conversions and trigger email campaigns to execute a successful event. To track and analyse campaign outcomes and develop a data-based strategy.",
+      "Mauris quis ex enim. Aliquam purus quam, tempor sed luctus ac, iaculis gravida nulla. Etiam eleifend varius enim et tristique. Aliquam tincidunt eleifend mollis. Nulla aliquam ut metus vitae bibendum.",
   },
   {
     label: "Graphic design",
     path: graphicsIcon,
     description:
-      "Designing visually appealing content for social media marketing that reflects your brand's personality and objectives. Crafting intriguing content to increase audience engagement and enhance social media presence.",
+      " In sit amet convallis orci. Aliquam in sem rhoncus, facilisis tellus non, condimentum tellus. Nam vitae consequat mi. Aenean euismod sapien ut lorem malesuada malesuada. Nulla aliquam ut metus vitae bibendum.",
   },
   {
     label: "Content strategy",
     path: contentStrategyIcon,
     description:
-      "Develop a well-structured strategy- including images, videos, articles, and infographics to maximise audience engagement and maintains brand visibility. Creating effective plans that resonate your brand's message to your audience.",
+      " Ut non libero a sapien bibendum lobortis. Nunc fringilla, quam vitae venenatis iaculis, nisl turpis laoreet nunc, eget pulvinar ipsum neque nec velit. Nulla aliquam ut metus vitae bibendum.",
   },
   {
     label: "Content writing",
     path: contentWritingIcon,
     description:
-      "Creating high-quality, SEO-friendly content that aligns with your business goals. Writing engaging and relevant content to effectively communicates your products, services, and values and connect with your target audience.",
+      "Donec pretium diam leo, sit amet posuere lacus scelerisque vitae. Fusce erat nisi, sagittis et sem et, ullamcorper auctor velit. Quisque sed nulla dignissim libero sodales suscipit quis at ante.",
   },
 ];
 

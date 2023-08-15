@@ -8,7 +8,7 @@ const Header = () => {
         <div className="h-[60px] w-[120px]">
           <img src={logo} className="h-full w-full object-contain" alt="logo" />
         </div>
-        <h3 className="font-greatVibes text-2xl">
+        <h3 className="font-greatVibes text-xl">
           Let&apos;s ink your creativity
         </h3>
       </div>
@@ -21,7 +21,7 @@ const Header = () => {
               className="cursor-pointer bg-green-100 px-2 shadow-lg"
             >
               <a
-                className="text-green-900 text-xs md:text-base font-semibold font-ebGarmond"
+                className="text-green-900 text-xs md:text-sm font-semibold"
                 href={`#${item.link}`}
               >
                 {item.label}
