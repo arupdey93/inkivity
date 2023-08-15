@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="h-[60px] w-[120px]">
           <img src={logo} className="h-full w-full object-contain" alt="logo" />
         </div>
-        <h3 className="text-white font-greatVibes text-xl">
+        <h3 className="text-white font-greatVibes text-2xl">
           Let&apos;s ink your creativity
         </h3>
       </section>
@@ -19,15 +19,15 @@ const Footer = () => {
       <section className="flex gap-x-3">
         <input
           placeholder="Subscribe to my newsletter"
-          className="border border-gray-300 flex-1 rounded-sm px-2 md:flex-none lg:w-[220px]"
+          className="border border-gray-300 flex-1 rounded-sm px-2 md:flex-none lg:w-[220px] font-ebGarmond"
         />
-        <button className="bg-green-800 text-white px-3 py-1 rounded-sm shadow-md">
+        <button className="bg-green-800 text-white px-3 py-1 rounded-sm shadow-md font-ebGarmond">
           Subscribe
         </button>
       </section>
 
       <section>
-        <h4 className="text-white mb-1">Follow us:</h4>
+        <h4 className="text-white mb-1 font-ebGarmond">Follow us:</h4>
 
         <div className="flex gap-x-2">
           {SOCIAL_MEDIA_LIST.map((item) => (
@@ -43,8 +43,8 @@ const Footer = () => {
       </section>
 
       <section>
-        <h4 className="text-white">Contact us:</h4>
-        <p className="text-white italic">inkivity@gmail.com</p>
+        <h4 className="text-white font-ebGarmond">Contact us:</h4>
+        <p className="text-white italic font-ebGarmond">inkivity@gmail.com</p>
       </section>
     </footer>
   );
