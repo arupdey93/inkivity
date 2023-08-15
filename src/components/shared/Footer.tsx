@@ -1,4 +1,5 @@
 import logo from "../../assets/logo.png";
+import { SOCIAL_MEDIA_LIST } from "../../utils/constants";
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
         <div className="h-[60px] w-[120px]">
           <img src={logo} className="h-full w-full object-contain" alt="logo" />
         </div>
-        <h3 className="text-white font-greatVibes">
+        <h3 className="text-white font-greatVibes text-xl">
           Let&apos;s ink your creativity
         </h3>
       </section>
@@ -18,7 +19,7 @@ const Footer = () => {
       <section className="flex gap-x-3">
         <input
           placeholder="Subscribe to my newsletter"
-          className="border border-gray-300 flex-1 rounded-sm px-2"
+          className="border border-gray-300 flex-1 rounded-sm px-2 md:flex-none lg:w-[220px]"
         />
         <button className="bg-green-800 text-white px-3 py-1 rounded-sm shadow-md">
           Subscribe
@@ -28,11 +29,16 @@ const Footer = () => {
       <section>
         <h4 className="text-white mb-1">Follow us:</h4>
 
-        <div className="flex gap-x-3">
-          <div className="h-8 w-8 bg-red-200"></div>
-          <div className="h-8 w-8 bg-red-200"></div>
-          <div className="h-8 w-8 bg-red-200"></div>
-          <div className="h-8 w-8 bg-red-200"></div>
+        <div className="flex gap-x-2">
+          {SOCIAL_MEDIA_LIST.map((item) => (
+            <div className="h-8 w-8 cursor-pointer" title={item.label}>
+              <img
+                src={item.path}
+                className="h-full w-full object-contain"
+                alt="logo"
+              />
+            </div>
+          ))}
         </div>
       </section>
 
